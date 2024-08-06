@@ -67,7 +67,9 @@ input[type=password]{
     background-color:transparent;
     transition: border-color 0.3s ease-in-out;
 }
-
+input::placeholder{
+  color: #f1e1ff;
+}
 .un,.ps{
     font-size: 20px;  
 }
@@ -83,7 +85,7 @@ input[type=password]{
 }
 .underline {
     position: absolute;
-    top: 208px;
+    top: 147px;
     left: 28px;
     width: 80%;
     height: 2px;
@@ -104,21 +106,21 @@ input[type=password]{
 .un:focus + .underline{
     transform: scaleX(1);
 }
-.underline2:focus{
-    transform: scaleX(1);
-}
 
 .button{
-    width: 70%;
+    width: 50%;
     height: 40px;
-    background-color: #f1bbff;
+    background-color: #fcc1fc;
     border-radius: 20px;
-    border-color: #f1bbff;
+    border-color: #f0b3ff;
+    box-shadow: 0 8px 32px 0 rgba(233, 143, 255, 0.37);
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
     color: rgb(41, 20, 68);
     font-size: 25px;
     position: relative;
-    top: 220px;
-    left: 65px;
+    top: 190px;
+    left: 110px;
 
 }
 .un{
@@ -148,11 +150,11 @@ input[type=password]{
     left: 250px;
 }
 .ac{
-    font-size: 25px;
+    font-size: 22px;
     color: antiquewhite;
     position: relative;
     z-index: 1;
-    top: 170px;
+    top: 270px;
     left: 35px;
 }
 
