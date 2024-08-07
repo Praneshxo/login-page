@@ -33,8 +33,8 @@ body{
 }
 
 .container{
-    width: 470px;
-    height: 730px;
+    width: 520px;
+    height: 600px;
     background: rgba( 150, 29, 255, 0.15 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 8px );
@@ -42,9 +42,10 @@ body{
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     right: 190px;
-    top: 90px;
+    top: 120px;
     position: absolute;
     z-index: 1;
+    
 }
 .text{
     font-family:Georgia;
@@ -52,8 +53,8 @@ body{
     font-size: 160px;
     width: 250px;
     position: relative;
-    left: 1257px;
-    top: 90px;
+    left: 1210px;
+    top: 140px;
     opacity: 60%;
 }
 
@@ -116,7 +117,7 @@ input::placeholder{
     font-size: 16px;
     user-select: none;
     top: 210px;
-    right: 350px;
+    right: 390px;
   }
   
   .custom-checkbox {
@@ -187,8 +188,8 @@ input::placeholder{
     color: rgb(41, 20, 68);
     font-size: 25px;
     position: relative;
-    top: 210px;
-    left: 110px;
+    top: 190px;
+    left: 120px;
 
 }
 .un{
@@ -222,21 +223,37 @@ input::placeholder{
     color: antiquewhite;
     position: relative;
     z-index: 1;
-    top: 270px;
-    left: 35px;
+    top: 410px;
+    left: 90px;
 }
 .Remember{
     font-size: 19px;
     position: absolute;
     color: antiquewhite;
-    top: 279px;
-    right: 284px;
+    top: 280px;
+    right: 340px;
 }
-
-
-
-
-
+.ne{
+    color: #92bcdf;
+    text-decoration: none;
+}
+.ne:hover{
+    color: rgb(149, 225, 255);
+}
+.social-message {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 20px;
+    color: antiquewhite;
+    position: relative;
+    top: 300px;
+}
+.line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgb(199, 212, 235);
+}
 
 
 
